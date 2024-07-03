@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="rsvp.css">
+        <title>RSVP</title>
+    </head>
+    <body>
+        <div>
+            <div class="btn-container">
+                <a class="butn1" href="index.html"><span>Home</span><i></i></a>
+                <a class="butn1" href="couple.html"><span>Penelope &
+                        Derek</span><i></i></a>
+                <a class="butn1"
+                    href="wedding.html"><span>Wedding</span><i></i></a>
+                <a class="butn1" href="rsvp.html"><span>RSVP</span><i></i></a>
+            </div>
+            <!-- Header / Home-->
+            <header class="container-home">
+                <div>
+                    <h1 id="name-text" class="jumbo">Penelope & Derek</h1>
+                </div>
+            </header>
+
+            <div>
+
+                <!-- RSVP section -->
+                <div class="rsvp-all">
+                    <h1 class="head">HOPE YOU CAN MAKE IT!</h1>
+                    <p class="subhead">Kindly Respond By January, 2005</p>
+                    <p class="btn">
+                        <button
+                            onclick="document.getElementById('id01').style.display='block'"
+                            class="butn1">RSVP</button>
+                    </p>
+                </div>
+
+                <!-- RSVP modal -->
+                <div class="rsvp-all">
+                    <div id="id01">
+                        <div>
+                            <h1>CAN YOU COME?</h1>
+                            <p>We really hope you can make it.</p>
+                            <form>
+                                <input class="form__input" type="text"
+                                    placeholder="Name(s)" name="name">
+                                    <label for="name" class="form__label">Full Name(s)</label>
+                            </form>
+                            <p><i>Sincerely, Penelope & Derek</i></p>
+                            <div class="butns">
+                                <div >
+                                    <button
+                                        onclick="document.getElementById('id01').style.display='none'"
+                                        type="button"
+                                        class="butn1">Going</button>
+                                </div>
+                                <div>
+                                    <button
+                                        onclick="document.getElementById('id01').style.display='none'"
+                                        type="button"
+                                        class="butn1">Can't make it</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+</html>
